@@ -19,6 +19,8 @@
 - You can use a pooling layer to reduce *n<sub>H</sub>, n<sub>W</sub>* but not *n<sub>C</sub>* 
 - You can use a 1x1 convolutional layer to reduce *n<sub>C</sub>* but not *n<sub>H</sub>, n<sub>W</sub>*
 ###### 9. Which ones of the following statements on Inception Networks are true? (Check all that apply.)
-- 
+- Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions
+- A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling
 ###### 10. Which of the following are common reasons for using open-source implementations of ConvNets (both the model and/or weights)? Check all that apply.
-- 
+- It is a convenient way to get working an implementation of a complex ConvNet architecture
+- Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks
