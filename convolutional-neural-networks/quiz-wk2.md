@@ -1,6 +1,5 @@
 ## Deep convolutional models
 
-
 ###### 1. Which of the following do you typically see as you move to deeper layers in a ConvNet?
 - *n<sub>H</sub>* and *n<sub>W</sub>* decrease, while *n<sub>C</sub>* increases
 ###### 2. Which of the following do you typically see in a ConvNet? (Check all that apply.)
