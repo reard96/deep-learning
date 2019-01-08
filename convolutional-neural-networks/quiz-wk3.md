@@ -6,11 +6,11 @@
 
 ###### 2. Continuing from the previous problem, what should y be for the image below? Remember that “?” means “don’t care”, which means that the neural network loss function won’t care what the neural network gives for that component of the output. As before, *y = [p<sub>c</sub>, b<sub>x</sub>, b<sub>y</sub>, b<sub>h</sub>, b<sub>w</sub>, c<sub>1</sub>, c<sub>2</sub>, c<sub>3</sub>]*
 ![Image of Road](/convolutional-neural-networks/images/road.png)
-- y=[0,?,?,?,?,?,?,?]
+- y = [0, ?, ?, ?, ?, ?, ?, ?]
 
 ###### 3. You are working on a factory automation task. Your system will see a can of soft-drink coming down a conveyor belt, and you want it to take a picture and decide whether (i) there is a soft-drink can in the image, and if so (ii) its bounding box. Since the soft-drink can is round, the bounding box is always square, and the soft drink can always appears as the same size in the image. There is at most one soft drink can in each image. Here’re some typical images in your training set:
 ![Image of Cans](/convolutional-neural-networks/images/cans.png)
--
+- Logistic unit, *b<sub>x</sub>, b<sub>y</sub>, b<sub>h</sub>, b<sub>w</sub>*
 
 ###### 4. If you build a neural network that inputs a picture of a person’s face and outputs N landmarks on the face (assume the input image always contains exactly one face), how many output units will the network have?
 - 
