@@ -11,6 +11,7 @@
 ###### 3. You are working on a factory automation task. Your system will see a can of soft-drink coming down a conveyor belt, and you want it to take a picture and decide whether (i) there is a soft-drink can in the image, and if so (ii) its bounding box. Since the soft-drink can is round, the bounding box is always square, and the soft drink can always appears as the same size in the image. There is at most one soft drink can in each image. Here’re some typical images in your training set:
 ![Image of Cans](/convolutional-neural-networks/images/cans.png)
 - Logistic unit, *b<sub>x</sub>, b<sub>y</sub>*
+- *Note: if we know the coordinates of the center point and the size of the bounding box, we can calculate the bounding box with only b<sub>x</sub>, b<sub>y</sub>.*
 
 ###### 4. If you build a neural network that inputs a picture of a person’s face and outputs N landmarks on the face (assume the input image always contains exactly one face), how many output units will the network have?
 - 2N
