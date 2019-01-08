@@ -14,6 +14,7 @@
 
 ###### 4. If you build a neural network that inputs a picture of a person’s face and outputs N landmarks on the face (assume the input image always contains exactly one face), how many output units will the network have?
 - 2N
+- *Note: this should actually be 2N + 1. 2N = x-coordinate, y-coordinate + 1 (is there a face: yes/no). I suppose that since we assume there is always a face, the yes/no unit can be discounted.*
 
 ###### 5. When training one of the object detection systems described in lecture, you need a training set that contains many pictures of the object(s) you wish to detect. However, bounding boxes do not need to be provided in the training set, since the algorithm can learn to detect the objects by itself.
 - False
