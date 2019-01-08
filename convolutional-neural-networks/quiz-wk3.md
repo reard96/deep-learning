@@ -33,4 +33,4 @@
 - 5
 
 ###### 10. Suppose you are using YOLO on a 19x19 grid, on a detection problem with 20 classes, and with 5 anchor boxes. During training, for each image you will need to construct an output volume *y* as the target value for the neural network; this corresponds to the last layer of the neural network. (*y* may include some “?”, or “don’t cares”). What is the dimension of this output volume?
--
+- 19x19x(5x25)
