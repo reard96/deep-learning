@@ -9,25 +9,26 @@
 ###### 3. In order to train the parameters of a face recognition system, it would be reasonable to use a training set comprising 100,000 pictures of 100,000 different persons.
 - 
 
-###### 4. Which of the following is a correct definition of the triplet loss? Consider that \alpha > 0α>0. (We encourage you to figure out the answer from first principles, rather than just refer to the lecture.)
+###### 4. Which of the following is a correct definition of the triplet loss? Consider that α > 0. (We encourage you to figure out the answer from first principles, rather than just refer to the lecture.)
 - 
 
-###### 5. When training one of the object detection systems described in lecture, you need a training set that contains many pictures of the object(s) you wish to detect. However, bounding boxes do not need to be provided in the training set, since the algorithm can learn to detect the objects by itself.
-- False
+###### 5. Consider the following Siamese network architecture:
+![Image of Network](/convolutional-neural-networks/images/network.png)
+###### The upper and lower neural networks have different input images, but have exactly the same parameters.
+- 
 
-###### 6. Suppose you are applying a sliding windows classifier (non-convolutional implementation). Increasing the stride would tend to increase accuracy, but decrease computational cost.
-- False
+###### 6. You train a ConvNet on a dataset with 100 different classes. You wonder if you can find a hidden unit which responds strongly to pictures of cats. (I.e., a neuron so that, of all the input/training images that strongly activate that neuron, the majority are cat pictures.) You are more likely to find this unit in layer 4 of the network than in layer 1.
+- 
 
-###### 7. In the YOLO algorithm, at training time, only one cell <html>&mdash;</html> the one containing the center/midpoint of an object <html>&mdash;</html> is responsible for detecting this object.
-- True
+###### 7. Neural style transfer is trained as a supervised learning task in which the goal is to input two images (*x*), and train a network to output a new, synthesized image (*y*).
+- 
 
-###### 8. What is the IoU between these two boxes? The upper-left box is 2x2, and the lower-right box is 2x3. The overlapping region is 1x1.
-![Image of Boxes](/convolutional-neural-networks/images/iou.png)
-- 1/9
+###### 8. In the deeper layers of a ConvNet, each channel corresponds to a different feature detector. The style matrix *G<sup>[l]</sup>* measures the degree to which the activations of different feature detectors in layer *l* vary (or correlate) together with each other.
+-
 
-###### 9. Suppose you run non-max suppression on the predicted boxes above. The parameters you use for non-max suppression are that boxes with probability ≤ 0.4 are discarded, and the IoU threshold for deciding if two boxes overlap is 0.5. How many boxes will remain after non-max suppression?
-![Image of Predicted Boxes](/convolutional-neural-networks/images/boxes.png)
-- 5
+###### 9. In neural style transfer, what is updated in each iteration of the optimization algorithm?
+-
 
-###### 10. Suppose you are using YOLO on a 19x19 grid, on a detection problem with 20 classes, and with 5 anchor boxes. During training, for each image you will need to construct an output volume *y* as the target value for the neural network; this corresponds to the last layer of the neural network. (*y* may include some “?”, or “don’t cares”). What is the dimension of this output volume?
-- 19x19x(5x25)
+###### 10. You are working with 3D data. You are building a network layer whose input volume has size 32x32x32x16 (this volume has 16 channels), and applies convolutions with 32 filters of dimension 3x3x3 (no padding, stride 1). What is the resulting output volume?
+-
+
