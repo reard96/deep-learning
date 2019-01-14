@@ -16,7 +16,7 @@
 ###### 5. Consider the following Siamese network architecture:
 ![Image of Network](/convolutional-neural-networks/images/network.png)
 ###### The upper and lower neural networks have different input images, but have exactly the same parameters.
-- 
+- True
 
 ###### 6. You train a ConvNet on a dataset with 100 different classes. You wonder if you can find a hidden unit which responds strongly to pictures of cats. (I.e., a neuron so that, of all the input/training images that strongly activate that neuron, the majority are cat pictures.) You are more likely to find this unit in layer 4 of the network than in layer 1.
 - 
