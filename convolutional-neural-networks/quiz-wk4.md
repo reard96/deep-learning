@@ -1,10 +1,10 @@
 ## Special applications: Face recognition & Neural style transfer
 
 ###### 1. Face verification requires comparing a new picture against one person’s face, whereas face recognition requires comparing a new picture against K person’s faces.
-- 
+- True
 
 ###### 2. Why do we learn a function *d(img1, img2)* for face verification? (Select all that apply.)
--
+- 
 
 ###### 3. In order to train the parameters of a face recognition system, it would be reasonable to use a training set comprising 100,000 pictures of 100,000 different persons.
 - 
