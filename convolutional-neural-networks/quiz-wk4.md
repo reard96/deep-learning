@@ -4,7 +4,8 @@
 - True
 
 ###### 2. Why do we learn a function *d(img1, img2)* for face verification? (Select all that apply.)
-- 
+- This allows us to learn to recognize a new person given just a single image of that person.
+- We need to solve a one-shot learning problem.
 
 ###### 3. In order to train the parameters of a face recognition system, it would be reasonable to use a training set comprising 100,000 pictures of 100,000 different persons.
 - 
