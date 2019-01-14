@@ -11,7 +11,7 @@
 - 
 
 ###### 4. Which of the following is a correct definition of the triplet loss? Consider that α > 0. (We encourage you to figure out the answer from first principles, rather than just refer to the lecture.)
-- 
+- ![Image of Equation](/convolutional-neural-networks/images/triplet.png)
 
 ###### 5. Consider the following Siamese network architecture:
 ![Image of Network](/convolutional-neural-networks/images/network.png)
